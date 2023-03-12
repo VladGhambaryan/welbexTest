@@ -1,0 +1,79 @@
+.footerElements{
+    display: flex;
+    padding-top: 124px;
+    justify-content: space-between;
+    color: #fff;
+    opacity: 0.8;
+}
+.footerContainer{
+    color: #fff;
+    padding-top: 124px;
+}
+.aboutUs{
+display: flex;
+flex-direction: column;
+text-align: start;
+}
+.menuClass{
+    display: flex;
+    flex-direction: column;
+text-align: start;
+
+}
+/* .casessClass{
+    display: flex;
+    flex-direction: column;
+text-align: start; */
+
+/* } */
+.connectUs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end   ;
+    white-space: nowrap;
+   
+}
+.aboutText{
+    color:#656566;
+    font-weight: 700;
+    font-size:14px
+}
+.confidentialTerms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #E4E5EA;
+    padding-top: 70px;
+}
+
+@media(max-width:320px){
+    .aboutText{
+        font-size: 12px;
+    }
+    .exptraText{
+font-size: 14px;
+    }
+   
+    .footerElements{
+      flex-direction: column;
+      
+    }
+    .connectUs{
+        display: flex;
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+    .menuClass{
+        padding-top: 30px;
+        flex-direction: column;
+        grid-area: span2/ span2;
+    }
+    .confidentialTerms{
+        align-items: start;
+        text-align: start;
+    }
+    .footerContainer{
+        padding: 40px 16px 60px 34px;
+        background: black;
+    }
+}

@@ -1,0 +1,56 @@
+.navCon{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    /* gap:137px; */
+    font-size:16px;
+    font-weight: 500;
+}
+.navLogo{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.headerTitles{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.headerContactUs{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.navBarSubTitle{
+    color: #fff;
+    display:flex;  
+    font-size:10px;
+    font-weight:300;
+    padding-top:10px;
+    opacity:0.8;
+    white-space:normal;
+    width:150px;
+    text-align: start;
+  
+}
+@media(max-width:320px){
+    .headerTitles{
+        gap:13px;
+        font-size: 14px;
+    }
+    .navLogo{
+        display: none;
+    }
+.headerContactUs{
+    display: none;
+}
+.navCon{
+    padding: 20px 16px 20px 16px;
+    background: black;
+    overflow: hidden;
+}
+.navBarSubTitle{
+    display: none;
+}
+}
